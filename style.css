@@ -1,12 +1,12 @@
 .container {
 
+    /* width: 100; */
     width: 1250px;
     height: 800px;
-    /* background-color: rgb(248, 206, 206);; */
     margin: 0px;
     display: flex;
     background-color: #FCEEF1;
-    /* margin-top: 20px; */
+
 
 
 }
@@ -20,7 +20,7 @@
 
 .part-one h1 {
     font-family: poppins;
-    /* font-style: bold; */
+
 }
 
 .part-one p {
@@ -31,7 +31,7 @@
     width: 635px;
     height: 800px;
     padding-left: 20px;
-    /* padding-top: 20px; */
+
 }
 
 .btn-primary {
@@ -46,8 +46,7 @@
 }
 
 .second-section {
-    /* background-color: red; */
-    /* padding-top: 5px; */
+
     padding-bottom: 10px;
     margin: 80px;
     text-align: center;
@@ -64,44 +63,53 @@
 
 }
 
+/* flower card section  */
+
 .section-third {
     /* background-color: red; */
-    width: 940px;
-    height: 300px;
+    width: 1240px;
+    height: 400px;
     margin: 0 auto;
     display: flex;
-    /* justify-content: space-evenly; */
-    padding-top: 80px;
     justify-content: center;
     gap: 20px;
+    align-items: flex-end;
 }
 
-.first-flower {
+/* shared flower style */
+.flower {
+    width: 210px;
+    height: 280px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    position: relative;
+    overflow: hidden;
+    /* 🔥 VERY IMPORTANT */
+}
+
+/* image positioning */
+.flower img {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 80%;
+    width: auto;
+}
+
+/* background colors */
+.pink {
     background-color: #e3b7cb;
-    width: 210px;
-    height: 280px;
-    border-top-left-radius: 100px;
-    border-top-right-radius: 100px;
-    /* padding-left: 45px; */
-    /* padding-bottom:-70px; */
 }
 
-.second-flower {
+.blue {
     background-color: #c2f7f3;
-    width: 210px;
-    height: 280px;
-    border-top-left-radius: 100px;
-    border-top-right-radius: 100px;
-
 }
 
-.third-flower {
+.green {
     background-color: #ddeed2;
-    width: 210px;
-    height: 280px;
-    border-top-left-radius: 100px;
-    border-top-right-radius: 100px;
 }
+
 
 /* last container  */
 .last-container {
@@ -122,13 +130,22 @@
 }
 
 .image-tag {
-    /* align-items: center; */
-    /* justify-content: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.image-tag img {
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
 
 }
 
 .offer-container {
-    /* background-color: aquamarine; */
+
     width: 1255px;
     height: 450px;
     background: rgb(241, 226, 226);
@@ -141,8 +158,7 @@
 
 .inner-container {
     padding-top: 150px;
-    /* align-items: center;
-    justify-content: center; */
+
 }
 
 .inner-container h3 {
@@ -157,31 +173,22 @@
     padding-top: 20px;
 }
 
-/* flower container */
+/*the ultimate flowers container */
 .flower-container {
     margin: auto;
     display: flex;
     gap: 20px;
     width: 1255px;
     height: 320px;
-    /* background-color: red; */
     justify-content: space-evenly;
 }
 
-.card-1 {
-    /* width: fixed;
-    height: fixed; */
-}
+.card-1 {}
 
 /* mail section  */
 
-/* .mail-section {
-    width: 100%;
-    height: 100%;
-    background: url(./Flower\ Asset/rectangle 9.png);
-} */
 .background-mail {
-    background-color: red;
+    
     max-width: 1100px;
     margin: auto;
     padding: 80px 40px;
@@ -192,7 +199,7 @@
 }
 
 .mail-upper {
-    /* align-items: center; */
+
     justify-content: center;
     text-align: center;
 }
@@ -217,5 +224,18 @@ p {
     font-size: 14px;
     font-family: poppins;
 
+
+}
+
+.footer-container {
+    width: 100%;
+    height: 100%;
+    margin-top: 40px;
+    background-color: black;
+    text-align: center;
+    padding-top: 80px;
+    font-family: poppins;
+    color: white;
+    padding-bottom: 40px;
 
 }
