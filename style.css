@@ -1,0 +1,173 @@
+.container {
+
+    width: 1250px;
+    height: 800px;
+    /* background-color: rgb(248, 206, 206);; */
+    margin: 0px;
+    display: flex;
+    background-color: #FCEEF1;
+    /* margin-top: 20px; */
+
+
+}
+
+.part-one {
+    padding-top: 195px;
+    padding-left: 100px;
+
+
+}
+
+.part-one h1 {
+    font-family: poppins;
+    /* font-style: bold; */
+}
+
+.part-one p {
+    font-family: poppins;
+}
+
+.hero-image {
+    width: 635px;
+    height: 800px;
+    padding-left: 20px;
+    /* padding-top: 20px; */
+}
+
+.btn-primary {
+    border: none;
+    background-color: rgb(248, 85, 115);
+    color: white;
+    font: bold;
+    border-radius: 6px;
+    height: 38px;
+    width: 100px;
+    font-family: poppins;
+}
+
+.second-section {
+    /* background-color: red; */
+    /* padding-top: 5px; */
+    padding-bottom: 10px;
+    margin: 80px;
+    text-align: center;
+
+}
+
+.second-section h1 {
+    font-family: poppins;
+
+}
+
+.second-section p {
+    font-family: poppins;
+
+}
+
+.section-third {
+    /* background-color: red; */
+    width: 940px;
+    height: 300px;
+    margin: 0 auto;
+    display: flex;
+    /* justify-content: space-evenly; */
+    padding-top: 80px;
+    justify-content: center;
+    gap: 20px;
+}
+
+.first-flower {
+    background-color: #e3b7cb;
+    width: 210px;
+    height: 280px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    /* padding-left: 45px; */
+    /* padding-bottom:-70px; */
+}
+
+.second-flower {
+    background-color: #c2f7f3;
+    width: 210px;
+    height: 280px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+
+}
+
+.third-flower {
+    background-color: #ddeed2;
+    width: 210px;
+    height: 280px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+/* last container  */
+.last-container {
+    background: rgb(220, 211, 211);
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 1170px;
+    height: 200px;
+
+}
+
+.last-two {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+
+}
+
+.image-tag {
+    /* align-items: center; */
+    /* justify-content: center; */
+
+}
+
+.offer-container {
+    /* background-color: aquamarine; */
+    width: 1255px;
+    height: 450px;
+    background: rgb(241, 226, 226);
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+
+}
+
+.inner-container {
+    padding-top: 150px;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+.inner-container h3 {
+    font-family: poppins;
+}
+
+.inner-container p {
+    font-family: poppins;
+}
+
+.inner-img {
+    padding-top: 20px;
+}
+
+/* flower container */
+.flower-container {
+    margin: auto;
+    display: flex;
+    gap: 20px;
+    width: 1255px;
+    height: 320px;
+    /* background-color: red; */
+    justify-content: space-evenly;
+}
+.card-1 {
+    /* width: fixed;
+    height: fixed; */
+}
