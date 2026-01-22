@@ -47,9 +47,8 @@
 
 .second-section {
 
-    padding-bottom: 10px;
-    margin: 80px;
     text-align: center;
+    margin: 60px;
 
 }
 
@@ -68,7 +67,7 @@
 .section-third {
     /* background-color: red; */
     width: 1240px;
-    height: 400px;
+    height: 300px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -84,7 +83,7 @@
     border-top-right-radius: 100px;
     position: relative;
     overflow: hidden;
-    /* 🔥 VERY IMPORTANT */
+    
 }
 
 /* image positioning */
@@ -177,13 +176,13 @@
 .flower-container {
     margin: auto;
     display: flex;
-    gap: 20px;
+    gap: 10px;
     width: 1255px;
     height: 320px;
-    justify-content: space-evenly;
+    justify-content: center;
+    /* justify-content: space-evenly; */
 }
 
-.card-1 {}
 
 /* mail section  */
 
@@ -194,6 +193,7 @@
     padding: 80px 40px;
     border-radius: 8px;
     background-image: url("Flower Asset/Rectangle 9.png");
+    margin-top: 60px;
 
 
 }
